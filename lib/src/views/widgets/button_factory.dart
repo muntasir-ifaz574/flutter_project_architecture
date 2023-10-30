@@ -34,7 +34,7 @@ class AndroidRaisedButton implements PlatformButton {
       onPressed: onPressed,
       child: child,
       style: ElevatedButton.styleFrom(
-          primary: backgroundColor,
+          backgroundColor: backgroundColor,
           padding: const EdgeInsets.symmetric(vertical: 8),
           textStyle: TextStyle(fontSize: 15, color: textColor)),
     );
@@ -54,7 +54,7 @@ class IOSRaisedButton implements PlatformButton {
       onPressed: onPressed,
       child: child,
       style: ElevatedButton.styleFrom(
-          primary: backgroundColor,
+          backgroundColor: backgroundColor,
           padding: const EdgeInsets.symmetric(vertical: 8),
           textStyle: TextStyle(fontSize: 15, color: textColor)),
     );

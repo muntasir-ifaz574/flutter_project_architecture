@@ -1,4 +1,4 @@
-package com.example.flutter_project_arch
+package com.shikkha.shikkha
 
 import io.flutter.embedding.android.FlutterActivity
 

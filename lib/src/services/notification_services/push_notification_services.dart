@@ -1,6 +1,6 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter_project_arch/src/business_logics/utils/log_debugger.dart';
-import 'package:flutter_project_arch/src/services/shared_preference_services/shared_prefs_services.dart';
+import '../../business_logics/utils/log_debugger.dart';
+import '../shared_preference_services/shared_prefs_services.dart';
 
 class PushNotificationServices {
   static late FirebaseMessaging _firebaseMessaging;

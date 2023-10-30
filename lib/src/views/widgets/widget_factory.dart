@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_arch/src/views/widgets/button_factory.dart';
+import 'button_factory.dart';
 
 class WidgetFactory {
   static Widget buildButton(

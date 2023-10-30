@@ -1,5 +1,6 @@
-import 'package:flutter_project_arch/src/business_logics/utils/log_debugger.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../business_logics/utils/log_debugger.dart';
 
 class SharedPrefsServices {
   static late SharedPreferences _prefsInstance;
