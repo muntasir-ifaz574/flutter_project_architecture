@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shikkha/src/views/ui/home_screen.dart';
+import 'views/ui/welcome.dart';
 import 'views/utils/colors.dart';
 
 class MyApp extends StatelessWidget {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: MaterialColor(0xFF2C2C6A, colorMap)
       ),
-      home: const HomeScreen(),
+      home: const Welcome(),
     );
   }
 }
